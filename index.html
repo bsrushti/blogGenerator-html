@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog Generator</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="blogGenerator.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Enter details for blog..</h1>
+    </header>
+    <section>
+      <table>
+        <tr>
+          <td><input type="text" placeholder="Name" id="name"></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="email" id="email"></td>
+        </tr>
+        <tr>
+          <td>
+            <select id="theme">
+              <option value="nature">nature</option>
+              <option value="travel">travel</option>
+              <option value="art">art</option>
+              <option value="technology">technology</option>
+              <option value="advertising">advertising</option>
+            </select>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Blog title" id="blogTitle"></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Blog description" id="blogDesc"></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Post Title" id="postTitle"></td>
+        </tr>
+        <tr>
+          <td><textarea rows="4" cols="18" id="postContent" placeholder="Enter post content here..."></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><button id="submit" onclick="main()">submit</button></td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+
+</html>
